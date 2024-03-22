@@ -11,7 +11,5 @@ public interface Collection<E> {
     int findIndex(E element);
     boolean removeIndex(int index);
     int size();
-
-    // Добавляем объявление метода iterator
     Iterator<E> iterator();
 }
